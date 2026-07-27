@@ -3,12 +3,8 @@ import { useMemo, useState } from "react";
 import portrait from "@/assets/dr-ajinkya-portrait.png.asset.json";
 import galleryOpd from "@/assets/gallery-opd.jpg.asset.json";
 import galleryZenOr from "@/assets/gallery-zen-or.jpg.asset.json";
-import gallerySurgeon from "@/assets/gallery-surgeon.jpg.asset.json";
 import galleryLaparoscopic from "@/assets/gallery-laparoscopic-real.jpg.asset.json";
 import galleryCertificate from "@/assets/gallery-certificate.jpg.asset.json";
-import galleryOr from "@/assets/gallery-or.jpg";
-import galleryConference from "@/assets/gallery-conference.jpg";
-import galleryHospital from "@/assets/gallery-hospital.jpg";
 import { SectionHeading } from "@/components/section-heading";
 
 const categories = [
@@ -50,12 +46,8 @@ function Gallery() {
   const items: Item[] = useMemo(
     () => [
       { src: portrait.url, alt: "Dr. Ajinkya at a medical conference", category: "Conference", aspect: "aspect-[4/5]" },
-      { src: galleryConference, alt: "Medical conference session", category: "Conference", aspect: "aspect-[4/3]" },
       { src: galleryZenOr.url, alt: "Dr. Ajinkya in the operating room", category: "Operating Room", aspect: "aspect-square" },
-      { src: gallerySurgeon.url, alt: "Dr. Ajinkya in surgical scrubs", category: "Operating Room", aspect: "aspect-[4/5]" },
-      { src: galleryOr, alt: "Modern operating theatre", category: "Operating Room", aspect: "aspect-[4/3]" },
       { src: galleryOpd.url, alt: "OPD consultation with a patient", category: "Hospital Practice", aspect: "aspect-[4/3]" },
-      { src: galleryHospital, alt: "Hospital corridor", category: "Hospital Practice", aspect: "aspect-[4/3]" },
       { src: galleryLaparoscopic.url, alt: "Laparoscopic surgery in progress", category: "Laparoscopic Surgery", aspect: "aspect-[4/5]" },
       { src: galleryCertificate.url, alt: "FMAS Fellowship certificate", category: "Awards & Certifications", aspect: "aspect-[4/3]" },
     ],

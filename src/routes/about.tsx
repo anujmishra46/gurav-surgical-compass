@@ -66,7 +66,9 @@ function About() {
               He has trained and worked at teaching hospitals with high surgical
               volume, and has completed a clinical observership at Kokilaben
               Dhirubhai Ambani Hospital, one of India's premier tertiary care
-              centres.
+              centres. He currently practices as a Consultant General &
+              Laparoscopic Surgeon at Zen Multi Speciality Hospital, Chembur —
+              a leading multi-specialty hospital in Mumbai.
             </p>
 
             <div className="mt-8">
