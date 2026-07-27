@@ -15,7 +15,7 @@ export const doctor = {
 };
 
 export const highlights = [
-  { label: "Years of Experience", value: "8+" },
+  { label: "Years of Experience", value: "5+" },
   { label: "Surgical Procedures", value: "1000+" },
   { label: "Specialisation", value: "General & Laparoscopic Surgery" },
   { label: "Hospital Associations", value: "4 Hospitals" },
