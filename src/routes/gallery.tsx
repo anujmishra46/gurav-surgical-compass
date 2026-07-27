@@ -3,12 +3,8 @@ import { useMemo, useState } from "react";
 import portrait from "@/assets/dr-ajinkya-portrait.png.asset.json";
 import galleryOpd from "@/assets/gallery-opd.jpg.asset.json";
 import galleryZenOr from "@/assets/gallery-zen-or.jpg.asset.json";
-import gallerySurgeon from "@/assets/gallery-surgeon.jpg.asset.json";
 import galleryLaparoscopic from "@/assets/gallery-laparoscopic-real.jpg.asset.json";
 import galleryCertificate from "@/assets/gallery-certificate.jpg.asset.json";
-import galleryOr from "@/assets/gallery-or.jpg";
-import galleryConference from "@/assets/gallery-conference.jpg";
-import galleryHospital from "@/assets/gallery-hospital.jpg";
 import { SectionHeading } from "@/components/section-heading";
 
 const categories = [
