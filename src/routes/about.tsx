@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { GraduationCap, Building2, CheckCircle2, ArrowRight } from "lucide-react";
-import portrait from "@/assets/dr-ajinkya-portrait.png.asset.json";
+import portrait from "@/assets/dr-ajinkya-portrait.png";
 import { doctor, education, experience } from "@/lib/site-data";
 import { SectionHeading } from "@/components/section-heading";
 
