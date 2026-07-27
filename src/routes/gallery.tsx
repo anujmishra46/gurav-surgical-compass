@@ -1,10 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
-import portrait from "@/assets/dr-ajinkya-portrait.png.asset.json";
-import galleryOpd from "@/assets/gallery-opd.jpg.asset.json";
-import galleryZenOr from "@/assets/gallery-zen-or.jpg.asset.json";
-import galleryLaparoscopic from "@/assets/gallery-laparoscopic-real.jpg.asset.json";
-import galleryCertificate from "@/assets/gallery-certificate.jpg.asset.json";
+import portrait from "@/assets/dr-ajinkya-portrait.png";
+import galleryOpd from "@/assets/gallery-opd.jpg";
+import galleryZenOr from "@/assets/gallery-zen-or.jpg";
+import galleryLaparoscopic from "@/assets/gallery-laparoscopic-real.jpg";
+import galleryCertificate from "@/assets/gallery-certificate.jpg";
 import { SectionHeading } from "@/components/section-heading";
 
 const categories = [
