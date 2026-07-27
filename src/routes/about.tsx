@@ -43,7 +43,7 @@ function About() {
           <div className="relative order-2 lg:order-1">
             <div className="rounded-[2rem] overflow-hidden bg-surface border border-border shadow-card aspect-[4/5] max-w-md">
               <img
-                src={portrait.url}
+                src={portrait}
                 alt={doctor.name}
                 className="h-full w-full object-cover"
                 loading="lazy"
