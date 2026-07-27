@@ -12,7 +12,7 @@ import {
   Award,
   Sparkles,
 } from "lucide-react";
-import portrait from "@/assets/dr-ajinkya-portrait.png.asset.json";
+import portrait from "@/assets/dr-ajinkya-portrait.png";
 import { doctor, highlights, trustPillars } from "@/lib/site-data";
 import { SectionHeading } from "@/components/section-heading";
 
