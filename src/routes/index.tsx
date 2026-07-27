@@ -113,7 +113,7 @@ function Home() {
               />
               <div className="relative rounded-[2rem] overflow-hidden bg-surface border border-border shadow-elevated aspect-[4/5] max-w-md mx-auto lg:max-w-none">
                 <img
-                  src={portrait.url}
+                  src={portrait}
                   alt={`Portrait of ${doctor.name}`}
                   className="h-full w-full object-cover"
                   width={800}
