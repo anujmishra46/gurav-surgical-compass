@@ -169,7 +169,7 @@ export const hospitals = [
     name: "Zen Multi Speciality Hospital",
     address:
       "Plot No. 425, 10th Road, Near Sandu Garden, Jai Ambe Nagar, Chembur Gaothan, Chembur, Mumbai, Maharashtra 400071",
-    timing: "Mon – Sat · 6:00 PM – 8:00 PM",
+    timing: "Mon – Sat · 9:00 AM – 5:00 PM",
     directions: "https://share.google/GoZz5dQNuw0tIGVBe",
     mapEmbed:
       "https://www.google.com/maps?q=Zen+Multi+Speciality+Hospital+Chembur&output=embed",
@@ -178,7 +178,7 @@ export const hospitals = [
     name: "B.K. Nadkarni Hospital",
     address:
       "Shree Leela Cooperative Housing Society, Doctor B.A. Road, Aai Mai Merwanji Street, Parel East, Mumbai, Maharashtra 400012",
-    timing: "Mon – Fri · By Appointment",
+    timing: "Mon – Sat · By Appointment",
     directions: "https://share.google/QUPA9iAViFGsXdtqs",
     mapEmbed:
       "https://www.google.com/maps?q=B.K.+Nadkarni+Hospital+Parel+East+Mumbai&output=embed",
@@ -187,7 +187,7 @@ export const hospitals = [
     name: "Mandapeshwar Nursing Home",
     address:
       "Gomti Apartments, Rokadia X Lane, Near Sudhir Phadke Flyover, Borivali West, Mumbai, Maharashtra 400092",
-    timing: "Tue & Thu · 11:00 AM – 1:00 PM",
+    timing: "Mon – Sat · By Appointment",
     directions: "https://share.google/qpS0QsZyqzFiedezr",
     mapEmbed:
       "https://www.google.com/maps?q=Mandapeshwar+Nursing+Home+Borivali+West&output=embed",
