@@ -45,11 +45,11 @@ function Gallery() {
 
   const items: Item[] = useMemo(
     () => [
-      { src: portrait.url, alt: "Dr. Ajinkya at a medical conference", category: "Conference", aspect: "aspect-[4/5]" },
-      { src: galleryZenOr.url, alt: "Dr. Ajinkya in the operating room", category: "Operating Room", aspect: "aspect-square" },
-      { src: galleryOpd.url, alt: "OPD consultation with a patient", category: "Hospital Practice", aspect: "aspect-[4/3]" },
-      { src: galleryLaparoscopic.url, alt: "Laparoscopic surgery in progress", category: "Laparoscopic Surgery", aspect: "aspect-[4/5]" },
-      { src: galleryCertificate.url, alt: "FMAS Fellowship certificate", category: "Awards & Certifications", aspect: "aspect-[4/3]" },
+      { src: portrait, alt: "Dr. Ajinkya at a medical conference", category: "Conference", aspect: "aspect-[4/5]" },
+      { src: galleryZenOr, alt: "Dr. Ajinkya in the operating room", category: "Operating Room", aspect: "aspect-square" },
+      { src: galleryOpd, alt: "OPD consultation with a patient", category: "Hospital Practice", aspect: "aspect-[4/3]" },
+      { src: galleryLaparoscopic, alt: "Laparoscopic surgery in progress", category: "Laparoscopic Surgery", aspect: "aspect-[4/5]" },
+      { src: galleryCertificate, alt: "FMAS Fellowship certificate", category: "Awards & Certifications", aspect: "aspect-[4/3]" },
     ],
     [],
   );
